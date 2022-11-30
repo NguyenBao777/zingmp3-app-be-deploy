@@ -136,22 +136,6 @@ app.get("/song/getnew/:pages/:limit", async (req, res) => {
 	if (pages <= 1) {
 		data = [
 			{
-				id: 12,
-				song_name: "abcdefu",
-				song_cover: "song_abcdefu.jpg_1668927866469.jpeg",
-				song_path: "song_abcdefu - GAYLE Royal the Serpent.mp3_1668927866469.mpeg",
-				song_listened: 1,
-				song_lyric:
-					"Fuck you and your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nI swear I meant to mean the best when it ended\r\nEven tried to bite my tongue when you start shit\r\nNow you're textin' all my friends asking questions\r\nThey never even liked you in the first place\r\nDated a girl that I hate for the attention\r\nShe only made it two days, what a connection\r\nIt's like you'd do anything for my affection\r\nYou're goin' all about it in the worst ways\r\nI was into you, but I'm over it now\r\nAnd I was tryin' to be nice\r\nBut nothing's getting through, so let me spell it out\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nYou said you just needed space and so I gave it\r\nWhen I had nothin' to say you couldn't take it\r\nTold everyone I'm a bitch, so I became it\r\nAlways had to put yourself above me\r\nI was into you, but I'm over it now\r\nAnd I was tryin' to be nice\r\nBut nothing's getting through, so let me spell it out\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your craigslist couch and the way your voice sounds\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off",
-				song_duration: "02:49",
-				author_name: "Gayle",
-				artist_id: 6,
-				artist_name: "Gayle",
-				category_id: 3,
-				created_at: "2022-11-20",
-				updated_at: "2022-11-22",
-			},
-			{
 				id: 11,
 				song_name: "Crying Over You",
 				song_cover: "song_cryingoveryou.jpg_1668927459720.jpeg",
@@ -164,22 +148,6 @@ app.get("/song/getnew/:pages/:limit", async (req, res) => {
 				artist_id: 4,
 				artist_name: "Binz ft Justatee",
 				category_id: 1,
-				created_at: "2022-11-20",
-				updated_at: "2022-11-20",
-			},
-			{
-				id: 10,
-				song_name: "Sau này",
-				song_cover: "song_saunay.jpg_1668927280607.jpeg",
-				song_path: "song_SauNayHuLai-LuuNhuocAnh.mp3_1668927280607.mpeg",
-				song_listened: 0,
-				song_lyric:
-					"Hòu lái\r\nWǒ zǒng suàn xué huì le rú hé qù ài\r\nKě xī nǐ zǎo yǐ yuǎn qù\r\nXiāo shī zài rén hǎi\r\n\r\n\r\nHòu lái\r\nZhōng yú zài yǎn lèi zhōng míng bai\r\nYǒu xiē rén yī dàn cuò guò jiù bù zài\r\n\r\n\r\nZhī zi huā bái huā bàn\r\nLuò zài wǒ lán sè bǎi zhě qún shàng\r\nÀi nǐ nǐ qīng shēng shuō\r\nWǒ dī xià tou wén jiàn yī zhèn fēn fāng\r\nNà ge yǒng héng de yè wǎn\r\n\r\n\r\nShí qī suì zhòng xià\r\nNǐ wěn wǒ de nà ge yè wǎn\r\nRàng wǒ wǎng hòu de shí guāng\r\nMěi dāng yǒu gǎn tàn\r\nZǒng xiǎng qǐ dāng tiān de xīng guāng\r\nNà shí hou de ài qíng\r\nWèi shén me jiù néng nà yàng jiǎn dān\r\nÉr yòu shì wèi shén me rén nián shǎo shí\r\nYī dìng yào ràng shēn ài de rén shòu shāng\r\n\r\n\r\nZài zhè xiāng shì de shēn yè li\r\nYě zài jìng jìng zhuī huǐ gǎn shāng\r\nRú guǒ dāng shí wǒ men néng bù nà me jué jiàng\r\nXiàn zài yě bù nà me yí hàn\r\nNǐ dōu rú hé huí yì wǒ\r\nDài zhe xiào huò shì hěn chén mò\r\nZhè xiē nián lái yǒu méi yǒu rén néng ràng nǐ bù jì mò\r\n\r\n\r\nYǒng yuǎn bù huì zài chóng lái\r\nYǒu yī gè nán hái ài zhe nà ge nǚ hái",
-				song_duration: "05:41",
-				author_name: "Lưu Nhược Anh",
-				artist_id: 4,
-				artist_name: "Lưu Nhược Anh",
-				category_id: 3,
 				created_at: "2022-11-20",
 				updated_at: "2022-11-20",
 			},
@@ -316,7 +284,7 @@ app.get("/song/getnew/:pages/:limit", async (req, res) => {
 			},
 		];
 	}
-	return res.status(200).send({ success: true, message: data, total: 11 });
+	return res.status(200).send({ success: true, message: data, total: 8 });
 });
 app.get("/song/gettop100", async (req, res) => {
 	const data = [
@@ -367,22 +335,6 @@ app.get("/song/gettop100", async (req, res) => {
 			category_id: 1,
 			created_at: "2022-11-02",
 			updated_at: "2022-11-19",
-		},
-		{
-			id: 1,
-			song_name: "Cơn mưa ngang qua part2",
-			song_cover: "song_cb2-thumb@2x.jpg_1666257355901.jpg",
-			song_path: "song_ConMuaNgangQuaPart2-M-TP.mp3_1666257355901.mpeg",
-			song_listened: 7,
-			song_lyric:
-				"Cơn mưa ngang qua…Cơn mưa ngang qua..Eh..!!\r\nLadykillah…M-tppppp..!!\r\nCan you feel me.\r\nEhhhhhhhhhhhhhhhhhhhhhh.\r\n\r\nHOOK:\r\nBỏ lại sau lưng tất cả..Bỏ lại sau lưng tất cả..\r\nĐể rời xa anh và bên ai,kề bên vai là ai..???\r\nLục tìm trong cơn mưa này..Lục tìm trong cơn mưa này..\r\nNụ cười em nơi đâu,đâu,đâu..\r\nNước mắt rơi,rơi..\r\nMong người về đây!\r\n\r\n\r\nCơn mưa ngang qua đã mang em đi xa nơi anh.\r\nCơn mưa ngang qua đã mang em phôi pha xa nơi anh.\r\nMột giây thôi..Ùa về một giây thôi..\r\nHỡi những giấc mơ,em mang trao anh với bao kỉ niệm.\r\nHãy nói rõ ra đi…Sao em như vậy..!!\r\nĐôi tay anh giờ này nó quá yếu mềm.\r\nKhông thể níu em trở lại về,một giây được bên em sao quá xa..Phải chăng em đã quên rồi..!!!\r\n\r\nCơn gió hãy tìm xem em ở đâu.?.Em ở đâu..??\r\nHãy nhắn em về đi,trở lại nơi em đã từng đánh rớt rơi một nụ cười.\r\nNhìn lại căn phòng sao quặn đau.\r\nTràn ngập bao nỗi buồn.\r\nMưa lại vội rơi và cướp mất em….Eh..Eh.\r\nHOOK:\r\nCơn mưa ngang qua mang em đi xa.\r\nCơn mưa ngang qua khiến em phôi pha.\r\nTim anh nghẹn ngào,tìm giấc mơ ngày nào…Uh..Ehhhh!\r\nSau cơn mưa anh bỗng thấy đau hơn.\r\nKhi tim em ra đi quên đi một bóng hình.\r\nXin người trở về…\r\nNíu em trở về..!!!Oh.",
-			song_duration: "03:34",
-			author_name: "Sơn tùng MTP",
-			artist_id: 5,
-			artist_name: "Sơn tùng MTP",
-			category_id: 1,
-			created_at: "2022-10-20",
-			updated_at: "2022-11-22",
 		},
 		{
 			id: 3,
@@ -449,38 +401,6 @@ app.get("/song/gettop100", async (req, res) => {
 			updated_at: "2022-11-20",
 		},
 		{
-			id: 12,
-			song_name: "abcdefu",
-			song_cover: "song_abcdefu.jpg_1668927866469.jpeg",
-			song_path: "song_abcdefu - GAYLE Royal the Serpent.mp3_1668927866469.mpeg",
-			song_listened: 1,
-			song_lyric:
-				"Fuck you and your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nI swear I meant to mean the best when it ended\r\nEven tried to bite my tongue when you start shit\r\nNow you're textin' all my friends asking questions\r\nThey never even liked you in the first place\r\nDated a girl that I hate for the attention\r\nShe only made it two days, what a connection\r\nIt's like you'd do anything for my affection\r\nYou're goin' all about it in the worst ways\r\nI was into you, but I'm over it now\r\nAnd I was tryin' to be nice\r\nBut nothing's getting through, so let me spell it out\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nYou said you just needed space and so I gave it\r\nWhen I had nothin' to say you couldn't take it\r\nTold everyone I'm a bitch, so I became it\r\nAlways had to put yourself above me\r\nI was into you, but I'm over it now\r\nAnd I was tryin' to be nice\r\nBut nothing's getting through, so let me spell it out\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your craigslist couch and the way your voice sounds\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off",
-			song_duration: "02:49",
-			author_name: "Gayle",
-			artist_id: 6,
-			artist_name: "Gayle",
-			category_id: 3,
-			created_at: "2022-11-20",
-			updated_at: "2022-11-22",
-		},
-		{
-			id: 10,
-			song_name: "Sau này",
-			song_cover: "song_saunay.jpg_1668927280607.jpeg",
-			song_path: "song_SauNayHuLai-LuuNhuocAnh.mp3_1668927280607.mpeg",
-			song_listened: 0,
-			song_lyric:
-				"Hòu lái\r\nWǒ zǒng suàn xué huì le rú hé qù ài\r\nKě xī nǐ zǎo yǐ yuǎn qù\r\nXiāo shī zài rén hǎi\r\n\r\n\r\nHòu lái\r\nZhōng yú zài yǎn lèi zhōng míng bai\r\nYǒu xiē rén yī dàn cuò guò jiù bù zài\r\n\r\n\r\nZhī zi huā bái huā bàn\r\nLuò zài wǒ lán sè bǎi zhě qún shàng\r\nÀi nǐ nǐ qīng shēng shuō\r\nWǒ dī xià tou wén jiàn yī zhèn fēn fāng\r\nNà ge yǒng héng de yè wǎn\r\n\r\n\r\nShí qī suì zhòng xià\r\nNǐ wěn wǒ de nà ge yè wǎn\r\nRàng wǒ wǎng hòu de shí guāng\r\nMěi dāng yǒu gǎn tàn\r\nZǒng xiǎng qǐ dāng tiān de xīng guāng\r\nNà shí hou de ài qíng\r\nWèi shén me jiù néng nà yàng jiǎn dān\r\nÉr yòu shì wèi shén me rén nián shǎo shí\r\nYī dìng yào ràng shēn ài de rén shòu shāng\r\n\r\n\r\nZài zhè xiāng shì de shēn yè li\r\nYě zài jìng jìng zhuī huǐ gǎn shāng\r\nRú guǒ dāng shí wǒ men néng bù nà me jué jiàng\r\nXiàn zài yě bù nà me yí hàn\r\nNǐ dōu rú hé huí yì wǒ\r\nDài zhe xiào huò shì hěn chén mò\r\nZhè xiē nián lái yǒu méi yǒu rén néng ràng nǐ bù jì mò\r\n\r\n\r\nYǒng yuǎn bù huì zài chóng lái\r\nYǒu yī gè nán hái ài zhe nà ge nǚ hái",
-			song_duration: "05:41",
-			author_name: "Lưu Nhược Anh",
-			artist_id: 4,
-			artist_name: "Lưu Nhược Anh",
-			category_id: 3,
-			created_at: "2022-11-20",
-			updated_at: "2022-11-20",
-		},
-		{
 			id: 11,
 			song_name: "Crying Over You",
 			song_cover: "song_cryingoveryou.jpg_1668927459720.jpeg",
@@ -523,22 +443,6 @@ app.get("/song/getchart/:category_name", async (req, res) => {
 					category_id: 1,
 					created_at: "2022-11-02",
 					updated_at: "2022-11-19",
-				},
-				{
-					id: 1,
-					song_name: "Cơn mưa ngang qua part2",
-					song_cover: "song_cb2-thumb@2x.jpg_1666257355901.jpg",
-					song_path: "song_ConMuaNgangQuaPart2-M-TP.mp3_1666257355901.mpeg",
-					song_listened: 7,
-					song_lyric:
-						"Cơn mưa ngang qua…Cơn mưa ngang qua..Eh..!!\r\nLadykillah…M-tppppp..!!\r\nCan you feel me.\r\nEhhhhhhhhhhhhhhhhhhhhhh.\r\n\r\nHOOK:\r\nBỏ lại sau lưng tất cả..Bỏ lại sau lưng tất cả..\r\nĐể rời xa anh và bên ai,kề bên vai là ai..???\r\nLục tìm trong cơn mưa này..Lục tìm trong cơn mưa này..\r\nNụ cười em nơi đâu,đâu,đâu..\r\nNước mắt rơi,rơi..\r\nMong người về đây!\r\n\r\n\r\nCơn mưa ngang qua đã mang em đi xa nơi anh.\r\nCơn mưa ngang qua đã mang em phôi pha xa nơi anh.\r\nMột giây thôi..Ùa về một giây thôi..\r\nHỡi những giấc mơ,em mang trao anh với bao kỉ niệm.\r\nHãy nói rõ ra đi…Sao em như vậy..!!\r\nĐôi tay anh giờ này nó quá yếu mềm.\r\nKhông thể níu em trở lại về,một giây được bên em sao quá xa..Phải chăng em đã quên rồi..!!!\r\n\r\nCơn gió hãy tìm xem em ở đâu.?.Em ở đâu..??\r\nHãy nhắn em về đi,trở lại nơi em đã từng đánh rớt rơi một nụ cười.\r\nNhìn lại căn phòng sao quặn đau.\r\nTràn ngập bao nỗi buồn.\r\nMưa lại vội rơi và cướp mất em….Eh..Eh.\r\nHOOK:\r\nCơn mưa ngang qua mang em đi xa.\r\nCơn mưa ngang qua khiến em phôi pha.\r\nTim anh nghẹn ngào,tìm giấc mơ ngày nào…Uh..Ehhhh!\r\nSau cơn mưa anh bỗng thấy đau hơn.\r\nKhi tim em ra đi quên đi một bóng hình.\r\nXin người trở về…\r\nNíu em trở về..!!!Oh.",
-					song_duration: "03:34",
-					author_name: "Sơn tùng MTP",
-					artist_id: 5,
-					artist_name: "Sơn tùng MTP",
-					category_id: 1,
-					created_at: "2022-10-20",
-					updated_at: "2022-11-22",
 				},
 				{
 					id: 3,
@@ -660,38 +564,6 @@ app.get("/song/getchart/:category_name", async (req, res) => {
 					created_at: "2022-11-06",
 					updated_at: "2022-11-14",
 				},
-				{
-					id: 12,
-					song_name: "abcdefu",
-					song_cover: "song_abcdefu.jpg_1668927866469.jpeg",
-					song_path: "song_abcdefu - GAYLE Royal the Serpent.mp3_1668927866469.mpeg",
-					song_listened: 1,
-					song_lyric:
-						"Fuck you and your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nI swear I meant to mean the best when it ended\r\nEven tried to bite my tongue when you start shit\r\nNow you're textin' all my friends asking questions\r\nThey never even liked you in the first place\r\nDated a girl that I hate for the attention\r\nShe only made it two days, what a connection\r\nIt's like you'd do anything for my affection\r\nYou're goin' all about it in the worst ways\r\nI was into you, but I'm over it now\r\nAnd I was tryin' to be nice\r\nBut nothing's getting through, so let me spell it out\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nYou said you just needed space and so I gave it\r\nWhen I had nothin' to say you couldn't take it\r\nTold everyone I'm a bitch, so I became it\r\nAlways had to put yourself above me\r\nI was into you, but I'm over it now\r\nAnd I was tryin' to be nice\r\nBut nothing's getting through, so let me spell it out\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your craigslist couch and the way your voice sounds\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nNah, nah, nah, nah, nah, nah, nah, nah\r\nA-B-C-D-E, F-U\r\nAnd your mom and your sister and your job\r\nAnd your broke-ass car and that shit you call art\r\nFuck you and your friends that I'll never see again\r\nEverybody but your dog, you can all fuck off",
-					song_duration: "02:49",
-					author_name: "Gayle",
-					artist_id: 6,
-					artist_name: "Gayle",
-					category_id: 3,
-					created_at: "2022-11-20",
-					updated_at: "2022-11-22",
-				},
-				{
-					id: 10,
-					song_name: "Sau này",
-					song_cover: "song_saunay.jpg_1668927280607.jpeg",
-					song_path: "song_SauNayHuLai-LuuNhuocAnh.mp3_1668927280607.mpeg",
-					song_listened: 0,
-					song_lyric:
-						"Hòu lái\r\nWǒ zǒng suàn xué huì le rú hé qù ài\r\nKě xī nǐ zǎo yǐ yuǎn qù\r\nXiāo shī zài rén hǎi\r\n\r\n\r\nHòu lái\r\nZhōng yú zài yǎn lèi zhōng míng bai\r\nYǒu xiē rén yī dàn cuò guò jiù bù zài\r\n\r\n\r\nZhī zi huā bái huā bàn\r\nLuò zài wǒ lán sè bǎi zhě qún shàng\r\nÀi nǐ nǐ qīng shēng shuō\r\nWǒ dī xià tou wén jiàn yī zhèn fēn fāng\r\nNà ge yǒng héng de yè wǎn\r\n\r\n\r\nShí qī suì zhòng xià\r\nNǐ wěn wǒ de nà ge yè wǎn\r\nRàng wǒ wǎng hòu de shí guāng\r\nMěi dāng yǒu gǎn tàn\r\nZǒng xiǎng qǐ dāng tiān de xīng guāng\r\nNà shí hou de ài qíng\r\nWèi shén me jiù néng nà yàng jiǎn dān\r\nÉr yòu shì wèi shén me rén nián shǎo shí\r\nYī dìng yào ràng shēn ài de rén shòu shāng\r\n\r\n\r\nZài zhè xiāng shì de shēn yè li\r\nYě zài jìng jìng zhuī huǐ gǎn shāng\r\nRú guǒ dāng shí wǒ men néng bù nà me jué jiàng\r\nXiàn zài yě bù nà me yí hàn\r\nNǐ dōu rú hé huí yì wǒ\r\nDài zhe xiào huò shì hěn chén mò\r\nZhè xiē nián lái yǒu méi yǒu rén néng ràng nǐ bù jì mò\r\n\r\n\r\nYǒng yuǎn bù huì zài chóng lái\r\nYǒu yī gè nán hái ài zhe nà ge nǚ hái",
-					song_duration: "05:41",
-					author_name: "Lưu Nhược Anh",
-					artist_id: 4,
-					artist_name: "Lưu Nhược Anh",
-					category_id: 3,
-					created_at: "2022-11-20",
-					updated_at: "2022-11-20",
-				},
 			];
 	}
 	return res.status(200).send({ success: true, message: data });
@@ -797,22 +669,6 @@ app.get("/song/getbyartist/:id", async (req, res) => {
 app.get("/song/getbycategory/:id/:pages/:limit", async (req, res) => {
 	const data = [
 		{
-			id: 1,
-			song_name: "Cơn mưa ngang qua part2",
-			song_cover: "song_cb2-thumb@2x.jpg_1666257355901.jpg",
-			song_path: "song_ConMuaNgangQuaPart2-M-TP.mp3_1666257355901.mpeg",
-			song_listened: 7,
-			song_lyric:
-				"Cơn mưa ngang qua…Cơn mưa ngang qua..Eh..!!\r\nLadykillah…M-tppppp..!!\r\nCan you feel me.\r\nEhhhhhhhhhhhhhhhhhhhhhh.\r\n\r\nHOOK:\r\nBỏ lại sau lưng tất cả..Bỏ lại sau lưng tất cả..\r\nĐể rời xa anh và bên ai,kề bên vai là ai..???\r\nLục tìm trong cơn mưa này..Lục tìm trong cơn mưa này..\r\nNụ cười em nơi đâu,đâu,đâu..\r\nNước mắt rơi,rơi..\r\nMong người về đây!\r\n\r\n\r\nCơn mưa ngang qua đã mang em đi xa nơi anh.\r\nCơn mưa ngang qua đã mang em phôi pha xa nơi anh.\r\nMột giây thôi..Ùa về một giây thôi..\r\nHỡi những giấc mơ,em mang trao anh với bao kỉ niệm.\r\nHãy nói rõ ra đi…Sao em như vậy..!!\r\nĐôi tay anh giờ này nó quá yếu mềm.\r\nKhông thể níu em trở lại về,một giây được bên em sao quá xa..Phải chăng em đã quên rồi..!!!\r\n\r\nCơn gió hãy tìm xem em ở đâu.?.Em ở đâu..??\r\nHãy nhắn em về đi,trở lại nơi em đã từng đánh rớt rơi một nụ cười.\r\nNhìn lại căn phòng sao quặn đau.\r\nTràn ngập bao nỗi buồn.\r\nMưa lại vội rơi và cướp mất em….Eh..Eh.\r\nHOOK:\r\nCơn mưa ngang qua mang em đi xa.\r\nCơn mưa ngang qua khiến em phôi pha.\r\nTim anh nghẹn ngào,tìm giấc mơ ngày nào…Uh..Ehhhh!\r\nSau cơn mưa anh bỗng thấy đau hơn.\r\nKhi tim em ra đi quên đi một bóng hình.\r\nXin người trở về…\r\nNíu em trở về..!!!Oh.",
-			song_duration: "03:34",
-			author_name: "Sơn tùng MTP",
-			artist_id: 5,
-			artist_name: "Sơn tùng MTP",
-			category_id: 1,
-			created_at: "2022-10-20",
-			updated_at: "2022-11-22",
-		},
-		{
 			id: 8,
 			song_name: "Muộn rồi mà sao còn",
 			song_cover: "song_muonroimasaocon.jpg_1668915908035.jpeg",
@@ -830,7 +686,7 @@ app.get("/song/getbycategory/:id/:pages/:limit", async (req, res) => {
 		},
 	];
 
-	return res.status(200).send({ success: true, message: data });
+	return res.status(200).send({ success: true, message: data, total: 1 });
 });
 /********************* Album API: ***************************/
 
@@ -874,22 +730,6 @@ app.get("/album/getalbumdetail/:album_code", async (req, res) => {
 			author_id: null,
 			artist_id: null,
 			category_id: 2,
-		},
-		{
-			id: 80,
-			album_code: "13AL-1668850060902",
-			song_id: 1,
-			song_name: "Cơn mưa ngang qua part2",
-			song_cover: "song_cb2-thumb@2x.jpg_1666257355901.jpeg",
-			song_path: "song_ConMuaNgangQuaPart2-M-TP.mp3_1666257355901.mpeg",
-			song_lyric:
-				"Cơn mưa ngang qua…Cơn mưa ngang qua..Eh..!!\r\nLadykillah…M-tppppp..!!\r\nCan you feel me.\r\nEhhhhhhhhhhhhhhhhhhhhhh.\r\n\r\nHOOK:\r\nBỏ lại sau lưng tất cả..Bỏ lại sau lưng tất cả..\r\nĐể rời xa anh và bên ai,kề bên vai là ai..???\r\nLục tìm trong cơn mưa này..Lục tìm trong cơn mưa này..\r\nNụ cười em nơi đâu,đâu,đâu..\r\nNước mắt rơi,rơi..\r\nMong người về đây!\r\n\r\n\r\nCơn mưa ngang qua đã mang em đi xa nơi anh.\r\nCơn mưa ngang qua đã mang em phôi pha xa nơi anh.\r\nMột giây thôi..Ùa về một giây thôi..\r\nHỡi những giấc mơ,em mang trao anh với bao kỉ niệm.\r\nHãy nói rõ ra đi…Sao em như vậy..!!\r\nĐôi tay anh giờ này nó quá yếu mềm.\r\nKhông thể níu em trở lại về,một giây được bên em sao quá xa..Phải chăng em đã quên rồi..!!!\r\n\r\nCơn gió hãy tìm xem em ở đâu.?.Em ở đâu..??\r\nHãy nhắn em về đi,trở lại nơi em đã từng đánh rớt rơi một nụ cười.\r\nNhìn lại căn phòng sao quặn đau.\r\nTràn ngập bao nỗi buồn.\r\nMưa lại vội rơi và cướp mất em….Eh..Eh.\r\nHOOK:\r\nCơn mưa ngang qua mang em đi xa.\r\nCơn mưa ngang qua khiến em phôi pha.\r\nTim anh nghẹn ngào,tìm giấc mơ ngày nào…Uh..Ehhhh!\r\nSau cơn mưa anh bỗng thấy đau hơn.\r\nKhi tim em ra đi quên đi một bóng hình.\r\nXin người trở về…\r\nNíu em trở về..!!!Oh.",
-			song_duration: "03:34",
-			author_name: "Sơn tùng MTP",
-			artist_name: "Sơn tùng MTP",
-			author_id: null,
-			artist_id: 5,
-			category_id: 1,
 		},
 		{
 			id: 81,
